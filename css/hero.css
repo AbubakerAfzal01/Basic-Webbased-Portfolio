@@ -1,0 +1,86 @@
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(0, 245, 196, 0.08) 1px, transparent 2px),
+        linear-gradient(90deg, rgba(0, 245, 196, 0.08) 1px, transparent 2px);
+    background-size: 60px 60px;
+    mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 40%, transparent 100%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.hero h2 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #94a3b8;
+    margin-bottom: 30px;
+}
+
+.herobuttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 26px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: 1px solid #38bdf8;
+    transition: all 0.2s ease;
+}
+
+.button:first-child {
+    background-color: #38bdf8;
+    color: #0f172a;
+}
+
+.button:first-child:hover {
+    background-color: #0ea5e9;
+}
+
+.button:last-child {
+    color: #38bdf8;
+}
+
+.button:last-child:hover {
+    background-color: #1e293b;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.statnum {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+.stattext {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    margin-top: 4px;
+}

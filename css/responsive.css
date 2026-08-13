@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 2.2rem;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .navbar a {
+        font-size: 0.85rem;
+    }
+
+    .stats {
+        gap: 20px;
+    }
+
+    .statnum {
+        font-size: 1.4rem;
+    }
+}

@@ -1,0 +1,57 @@
+
+.about {
+    background-color: #1e293b;
+}
+
+.about p {
+    color: #94a3b8;
+    font-size: 1rem;
+    max-width: 800px;
+    margin-bottom: 25px;
+}
+
+.about p a {
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+.about p a:hover {
+    text-decoration: underline;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.me {
+    padding: 6px 14px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    background-color: #334155;
+    border: 1px solid #475569;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.linkbtn {
+    display: inline-block;
+    padding: 12px 26px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 12px;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    transition: 0.3s;
+}
+
+.linkbtn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(99,102,241,0.35);
+}

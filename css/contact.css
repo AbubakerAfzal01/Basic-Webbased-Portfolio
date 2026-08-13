@@ -1,0 +1,86 @@
+.contact {
+    background-color: #0f172a;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    color: #94a3b8;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto 35px;
+}
+
+.contact-box {
+    background-color: #1a2436;
+    border: 1px solid #2a3a55;
+    border-radius: 10px;
+    padding: 25px 15px;
+    transition: border-color 0.2s ease;
+}
+
+.contact-box:hover {
+    border-color: #38bdf8;
+}
+
+.contact-icon {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.contact-box h3 {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #64748b;
+    margin-bottom: 8px;
+}
+
+.contact-box a,
+.contact-box p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #e2e8f0;
+    text-decoration: none;
+}
+
+.contact-box a:hover {
+    color: #38bdf8;
+}
+
+.social-links a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 22px;
+    margin: 5px;
+    border-radius: 6px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.social-links a[href*="github"] {
+    background-color: #24292e;
+}
+
+.social-links a[href*="linkedin"] {
+    background-color: #0077b5;
+}
+
+@media (max-width: 600px) {
+    .contact-info {
+        grid-template-columns: 1fr;
+    }
+}
