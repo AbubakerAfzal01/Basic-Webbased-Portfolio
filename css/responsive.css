@@ -21,3 +21,18 @@
         font-size: 1.4rem;
     }
 }
+
+@media (min-width: 768px) { 
+  .layout-container { 
+    flex-direction: row; 
+  } 
+  .cards-container { 
+    grid-template-columns: repeat(2, 1fr); 
+  } 
+} 
+
+@media (min-width: 1024px) { 
+  .cards-container { 
+    grid-template-columns: repeat(4, 1fr); 
+  } 
+}
